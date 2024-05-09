@@ -1,4 +1,4 @@
-# ACS730 Final Project: two-tier-web-application-automation-shadowy-inspiration
+# Academic Project: two-tier-web-application-automation-shadowy-inspiration
 
 ## Architecture
 
@@ -13,12 +13,13 @@
 
 <img width="800" alt="image" src="https://github.com/Ranjith-2022/Two-Tier-web-application-automation-with-Terraform-Ansible/assets/114111480/2de66017-ea73-41c4-823c-4c9795cba596">
 
+## Traffic Flows
+
+![image](https://github.com/Ranjith-2022/Two-Tier-web-application-automation-with-Terraform-Ansible/assets/114111480/397aeba8-a447-4fa5-812f-eed106044ccd)
 
 
-
-
 ## Table Of Contents
-- [ACS730 Final Project: two-tier-web-application-automation-shadowy-inspiration](#acs730-final-project-two-tier-web-application-automation-shadowy-inspiration)
+- [Final Project: two-tier-web-application-automation-shadowy-inspiration](#acs730-final-project-two-tier-web-application-automation-shadowy-inspiration)
   - [Pre-Requisites](#pre-requisites)
   - [Deployment Instructions](#deployment-instructions)
     - [Step 1: Clone the project at a path accessible in your IDE](#step-1-clone-the-project-at-a-path-accessible-in-your-ide)
@@ -170,4 +171,4 @@ ACS-NUMBAH-WAN-LICENSE
 
 ## Author Information
 
-GROUP 8 SHADOWY INSPIRATION IS NUMBAH WAN
+GROUP 8 SHADOWY INSPIRATION IS MY ACADEMIC GROUP PROJECT, HERE IS THE LINK - https://github.com/NCC-0514/two-tier-web-application-automation-shadowy-inspiration
