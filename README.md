@@ -70,7 +70,7 @@
 ### Step 1: Clone the project at a path accessible in your IDE
 
 ```bash
-   git clone git@github.com:NCC-0514/two-tier-web-application-automation-shadowy-inspiration.git
+   [git clone git@github.com:NCC-0514/two-tier-web-application-automation-shadowy-inspiration.git](https://github.com/Ranjith-2022/Two-Tier-web-application-automation-with-Terraform-Ansible.git)
 ```
 
 ### Step 2: Create S3 buckets to store state and images
