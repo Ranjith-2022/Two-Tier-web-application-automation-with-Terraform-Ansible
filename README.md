@@ -1,5 +1,23 @@
 # ACS730 Final Project: two-tier-web-application-automation-shadowy-inspiration
 
+## Architecture
+
+![image](https://github.com/Ranjith-2022/Two-Tier-web-application-automation-with-Terraform-Ansible/assets/114111480/9c344462-01ef-42bf-949b-51aa972003a4)
+
+
+- The application will serve a static website with the images downloaded from S3 bucket.
+- The application will be deployed on an Auto-Scaling Group (ASG) of EC2 instances with a minimum of 3 and a maximum of 4 instances across 3 availability zones.
+- The solution will have a scaling policy to scale out if the load is above 10% of the CPU and scale in if the load is below 5% of the CPU.
+- The solution will deploy two environments with the following specifications.
+
+
+"<img width="472" alt="image" src="https://github.com/Ranjith-2022/Two-Tier-web-application-automation-with-Terraform-Ansible/assets/114111480/2de66017-ea73-41c4-823c-4c9795cba596">
+
+
+
+
+
+## Table Of Contents
 - [ACS730 Final Project: two-tier-web-application-automation-shadowy-inspiration](#acs730-final-project-two-tier-web-application-automation-shadowy-inspiration)
   - [Pre-Requisites](#pre-requisites)
   - [Deployment Instructions](#deployment-instructions)
