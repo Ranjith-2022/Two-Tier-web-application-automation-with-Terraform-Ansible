@@ -1,0 +1,17 @@
+---
+plugin: aws_ec2
+regions:
+  - us-east-1
+keyed_groups:
+  - key: tags.role
+    prefix: grp
+filters:
+  instance-state-name : running
+  tag:env: staging
+  tag:service: shadowy_inspiration
+hostnames:
+  - ip-address
+  - private-ip-address
+  - tag:Name
+compose:
+  ansible_host: public_ip_address if tags.role == "bastion_host" else private_ip_address

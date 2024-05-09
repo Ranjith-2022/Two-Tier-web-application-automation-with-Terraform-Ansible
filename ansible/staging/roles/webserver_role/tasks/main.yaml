@@ -1,0 +1,19 @@
+---
+
+- name: Install Apache Web Server
+  yum: 
+    name: httpd 
+    state: present
+    
+- name:     Generate index.html from jinja2 template and copy to the remote host
+  template: 
+    src: main.j2 
+    dest: "{{ dest_folder }}/index.html" 
+    mode: 0555
+  notify:   Restart Httpd
+      
+- name: Start Apache Web Server
+  service: 
+    name: httpd 
+    state: started 
+    enabled: yes

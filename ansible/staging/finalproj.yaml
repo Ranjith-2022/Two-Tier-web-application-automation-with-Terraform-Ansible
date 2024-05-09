@@ -1,0 +1,29 @@
+---
+
+- name: upload image to S3
+  hosts: localhost
+  gather_facts: false
+  tasks:
+  - name: upload image to S3
+    amazon.aws.s3_object:
+      bucket: staging-images-acs730-shadowy-inspiration
+      object: ShadowyInspiration.jpg
+      src: ShadowyInspiration.jpg
+      permission: "public-read"
+      mode: put
+
+- name: run bastion role
+  hosts: grp_bastion_host
+  gather_facts: false
+  
+  roles:
+   - role: bastion_role
+
+- name: run webserver role
+  hosts: grp_Webserver_host
+  gather_facts: false
+  
+  roles:
+   - role: webserver_role
+     become: true
+     

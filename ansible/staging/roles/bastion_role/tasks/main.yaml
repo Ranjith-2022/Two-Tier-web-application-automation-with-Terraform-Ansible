@@ -1,0 +1,8 @@
+---
+
+- name: Copy private webserver key to Bastion Host
+  ansible.builtin.copy:
+    src: "{{ webserver_private_key }}"
+    dest: "{{ webserver_key_destination }}"
+    owner: ec2-user
+    mode: 0600
