@@ -11,7 +11,7 @@
 - The solution will deploy two environments with the following specifications.
 
 
-"<img width="472" alt="image" src="https://github.com/Ranjith-2022/Two-Tier-web-application-automation-with-Terraform-Ansible/assets/114111480/2de66017-ea73-41c4-823c-4c9795cba596">
+<img width="800" alt="image" src="https://github.com/Ranjith-2022/Two-Tier-web-application-automation-with-Terraform-Ansible/assets/114111480/2de66017-ea73-41c4-823c-4c9795cba596">
 
 
 
